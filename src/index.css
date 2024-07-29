@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,*::before,*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.light{
+  filter: brightness(0) saturate(100%) invert(98%) sepia(14%) saturate(332%) hue-rotate(221deg) brightness(118%) contrast(100%);
+}
+.dark:hover span{
+  @apply border-b-white;
+}
+.lightText:hover span{
+  @apply border-b-black;
+}
+.getAnInvite:hover img{
+  transform: translateX(-6px);
+}
+.story::after{
+  width:100%;
+  height: 0;
+  background-image: linear-gradient(126deg, #4d67dc 10%, #983e6d 88%);
+  content:'';
+  position: absolute;
+  bottom: 0;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+}
+.borderGrdient{
+  position: relative;
+}
+.borderGrdient::after{
+  width:0.5%;
+  height: 100%;
+  background-image: linear-gradient(126deg, #4d67dc 10%, #983e6d 88%);
+  content:'';
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+@media (max-width:800px){
+  .borderGrdient::after{
+    width: 100%;
+    height: 3.5%;
+
+  }
+}
+article:hover .story::after{
+  height: 10px;
+}
+.storiesPage{
+  background-image: url(/images/desktop/moon-of-appalacia.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+}
