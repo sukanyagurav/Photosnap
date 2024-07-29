@@ -19,6 +19,7 @@ export default {
         ctaDesktopImage: "url('/images/shared/desktop/bg-beta.jpg')",
         ctaTabletImage: "url('/images/shared/tablet/bg-beta.jpg')",
         ctaMobileImage: "url('/images/shared/mobile/bg-beta.jpg')",
+        StoriesPage:"url('/images/desktop/moon-of-appalacia.jpg')"
       },
       fontFamily: { sans: ["DM Sans", "sans-serif"] },
     },
