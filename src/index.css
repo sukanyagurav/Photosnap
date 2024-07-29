@@ -53,7 +53,7 @@ article:hover .story::after{
   height: 10px;
 }
 .storiesPage{
-  background-image: url(/images/desktop/moon-of-appalacia.jpg);
+  background-image: url('/images/desktop/moon-of-appalacia.jpg');
   width: 100%;
   background-repeat: no-repeat;
 }
