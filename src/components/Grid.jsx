@@ -1,6 +1,6 @@
 import React from "react";
 import PageLink from "./Link";
-import stories from "../utilis/stories";
+import stories from "../utilis/stories.js";
 import { useLocation } from "react-router-dom";
 const Grid = ({ column=stories.length }) => {
   const {pathname} = useLocation()

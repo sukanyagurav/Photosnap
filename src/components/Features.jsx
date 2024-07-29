@@ -1,5 +1,5 @@
 import React from 'react'
-import featuresData from '../utilis/features';
+import featuresData from '../utilis/features.js';
 const Features = ({columns= featuresData.length}) => {
   return (
    <section className='max-w-[1200px]  gap-8 flex flex-col  flex-wrap md:flex-row  justify-between mx-auto p-8 my-24'>
