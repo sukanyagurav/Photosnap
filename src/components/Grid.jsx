@@ -8,7 +8,7 @@ const Grid = ({ column=stories.length }) => {
   return (
     <section className="flex flex-wrap">
       {stories.slice(0,column).map((story) => (
-        <article key={story.title} className="sm:w-[100%] md:w-[50%] lg:w-[25%] relative h-[450px]">
+        <article key={story.title} className="sm:w-[100%] md:w-[50%] lg:w-[25%] relative ">
           <a href="/stories" className="story">
             <picture>
               <source

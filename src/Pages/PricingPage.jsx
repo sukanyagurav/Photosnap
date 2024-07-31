@@ -1,6 +1,8 @@
 import React from 'react'
 import Banner from '../components/Banner'
 import CTA from '../components/CTA'
+import Compare from '../components/Compare'
+import Plans from '../components/Plans'
 
 const PricingPage = () => {
   return (
@@ -22,7 +24,10 @@ const PricingPage = () => {
         linearGradient={true}
         revereseRow={"flex flex-col md:flex-row-reverse "}
       />
+        <Plans/>
+        <Compare/>
        <CTA/>
+       
    </>
   )
 }
