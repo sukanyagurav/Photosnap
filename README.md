@@ -1,8 +1,28 @@
-# React + Vite
+# Frontend mentor solution for Photosnap
+## Links
+- [GitHub URL](https://github.com/sukanyagurav/Photosnap)
+- [Live URL ](https://photosnap5867.netlify.app/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+| Desktop view                                                                                       
+| <img src="./src/designs/zvkqvpshdas9rtdkubkx.jpg" />  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+| Tablet view                                                                                         
+| <img src="./src/designs/ysdcgoki01oxpgkg0gpb.jpg" />  
+
+| Mobile view                                                                                         
+| <img src="./src/designs/vgki5snipvebjuebvvuo.jpg" />  
+
+## Overview 
+This challenge involves creating a multi-page website that closely mirrors the provided design.
+
+You are free to use any tools or technologies to complete the task, making it an excellent opportunity to practice or experiment with something new.
+
+Your website should ensure the following functionalities for users:
+
+- Adapt to an optimal layout for each page based on the device's screen size.
+- Display hover states for all interactive elements across the site.
+
+## Tech stack used
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
