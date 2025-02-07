@@ -24,6 +24,9 @@ export default {
         borderImage:'linear-gradient(126deg, #4d67dc 10%, #983e6d 88%)'
       },
       fontFamily: { sans: ["DM Sans", "sans-serif"] },
+      'boxShadow':{
+         'custom': '0 4px 20px rgba(0, 0, 0, 0.5)'
+      }
     },
   },
   plugins: [],
